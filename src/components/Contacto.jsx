@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Contacto.css'; 
+import '../styles/Contacto.css'; 
 
 function Contacto() {
   // Creamos el estado para capturar los datos del formulario (Punto 3 de la consigna)

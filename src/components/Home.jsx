@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Index.css'; // Importamos sus estilos específicos
+import '../styles/index.css'; // Importamos sus estilos específicos
 import heroImg from '../assets/guitarraencabezado.jpg'; // Importamos la imagen
 
 function Home() {

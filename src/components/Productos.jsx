@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Galeria.css'; // Importamos sus estilos
+import '../styles/Galeria.css'; // Importamos sus estilos
 
 // Importamos todas las imágenes desde assets
 import heroImg from '../assets/guitarraencabezado.jpg';

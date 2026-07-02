@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Cards.css'; // Importamos sus estilos
+import '../styles/Cards.css'; // Importamos sus estilos
 import stratImg from '../assets/stratocaster.webp';
 import lesPaulImg from '../assets/les.jpg';
 
