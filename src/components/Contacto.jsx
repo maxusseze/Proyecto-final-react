@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Contacto.css'; 
 
 function Contacto() {
-  // Creamos el estado para capturar los datos del formulario (Punto 3 de la consigna)
+  //  Punto 3 de la consigna
   const [formData, setFormData] = useState({
     nombre: '',
     email: '',
@@ -28,16 +28,16 @@ function Contacto() {
 
   // Manejo del Submit
   const handleSubmit = (e) => {
-    e.preventDefault(); // Previene el comportamiento por defecto (Obligatorio)
+    e.preventDefault(); // Previene el comportamiento por defecto 
     
-    // Mostramos los datos finales en la consola del navegador como pide el TP
+    // Mostramos los datos finales en la consola del navegador
     console.log('--- FORMULARIO ENVIADO CON ÉXITO ---');
     console.log(formData);
     
     alert('¡Gracias por comunicarte con Audio-Zone! Los datos se enviaron (revisar consola).');
   };
 
-  // Manejo del Reset
+  //  Reset
   const handleReset = () => {
     setFormData({
       nombre: '',

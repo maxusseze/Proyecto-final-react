@@ -21,7 +21,7 @@ function Navbar() {
           </div>
         </div>
         <ul>
-          {/* Cambiamos 'a' por 'Link' y 'href' por 'to' con la ruta limpia */}
+         
           <li><Link to="/">Inicio</Link></li>
           <li><Link to="/ofertas">Ofertas</Link></li>
           <li><Link to="/productos">Productos</Link></li>

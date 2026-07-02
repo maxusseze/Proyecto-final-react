@@ -18,7 +18,7 @@ function App() {
         <Route path="/ofertas" element={<Cards />} />
         <Route path="/productos" element={<Productos />} />
         
-        {/* Dejamos SOLAMENTE tu componente Contacto real */}
+        
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
 

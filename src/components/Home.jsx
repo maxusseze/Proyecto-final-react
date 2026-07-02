@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/index.css'; // Importamos sus estilos específicos
+import '../styles/index.css'; // Importamos los estilos 
 import heroImg from '../assets/guitarraencabezado.jpg'; // Importamos la imagen
 
 function Home() {
   return (
     <main>
       <section className="home">
-        {/* Usamos la variable de la imagen importada y agregamos la clase faltante */}
+      
         <img src={heroImg} alt="hero" className="hero-img" />
 
         <div className="texto">
