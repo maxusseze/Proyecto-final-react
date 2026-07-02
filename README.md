@@ -1,16 +1,47 @@
-# React + Vite
+# Proyecto Final - UTN
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicación web desarrollada como entrega formal para la Universidad Tecnológica Nacional (UTN). Consiste en una interfaz moderna construida con React y Vite.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tecnologías utilizadas
 
-## React Compiler
+- **React** — Biblioteca de JavaScript para interfaces de usuario
+- **Vite** — Entorno de desarrollo ultrarrápido
+- **Node.js** — Entorno de ejecución (versión recomendada: 18 o superior)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## Instrucciones de ejecución
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Asegurate de tener instalado [Node.js](https://nodejs.org/) antes de comenzar.
+
+### 1. Clonar el repositorio *(opcional)*
+
+Si descargaste el proyecto como archivo ZIP, podés saltear este paso. Si no, clonalo con:
+
+```bash
+git clone URL_DE_ESTE_REPOSITORIO
+```
+
+### 2. Instalar las dependencias
+
+Ejecutá el siguiente comando en la raíz del proyecto (donde está el archivo `package.json`):
+
+```bash
+npm install
+```
+
+### 3. Iniciar el servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+Luego abrí tu navegador en la dirección que indique la terminal (habitualmente `http://localhost:5173`).
+
+---
+
+## Autor
+
+**Ezequiel Ulloa**
