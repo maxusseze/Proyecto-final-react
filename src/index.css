@@ -1,0 +1,45 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* TIPOGRAFIA */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: white;
+    padding: 15px 30px;
+}
+/* LISTA DEL MENÚ */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+/* LINKS DEL NAV */
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+/* EFECTO HOVER EN LINKS */
+.navbar a:hover {
+    color: #00bcd4;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
